@@ -1,32 +1,28 @@
-# class Music:
+class Music:
 
-#     def __init__(self, gospel, rap, rnb ,name):
-#         self.gospel = gospel
-#         self.rap = rap 
-#         self.rnb = rnb
-#         self.name = name
+     def __init__(self, gospel, rap, rnb ,name):
+        self.gospel = gospel
+        self.rap = rap          
+        self.rnb = rnb
+        self.name = name
 
 
-
-# p1_fav = Music("Amazing Grace", "Set it off", "NO", "Yes")
-# print(p1_fav.gospel)
-
-# gospel = ("He'll Take The Pain Away")
-# name = ("Kirk Franklin")
-# print(gospel)
-# print(name)
-# print(" ")
+gospel = ("He'll Take The Pain Away")
+name = ("Kirk Franklin")
+print(gospel)
+print(name)
+print(" ")
     
-# rap = ("What About Me" "," "Long Journey")
-# name = ( "Boosie Bad A")
-# print(rap)
-# print(name)
-# print(" ")
+rap = ("What About Me" "," "Long Journey")
+name = ( "Boosie Bad A")
+print(rap)
+print(name)
+print(" ")
 
-# rnb = ("Don't Get Down" "," "Feel So Good")
-# name = ("Ne'Yo")
-# print(rnb)
-# print(name)
+rnb = ("Don't Get Down" "," "Feel So Good")
+name = ("Ne'Yo")
+print(rnb)
+print(name)
 
 class Sports:
  def __init__(self, teamName, ball, arena,stadium):
